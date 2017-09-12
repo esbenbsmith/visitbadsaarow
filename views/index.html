@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/superhero/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="../styles/styleindex.css">
+
+
 
     <title>Visit Bad Saarow</title>
 
@@ -16,33 +18,46 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="../views/index.html">
           <img alt="Visit Bad Saarow" src="../assets/logo/visitlogo.png">
           </a>
-        </div>
-        <ul class="nav navbar-nav navbar-right" id="navfont">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
           <li ><a  href="../views/stay.html">Stay</a></li>
           <li ><a  href="../views/do.html">Activities</a></li>
           <li ><a  href="../views/eat.html">Gastronomy</a></li>
           <li ><a  href="../views/about.html">About/Directions</a></li>
           <li><a href="../views/indexFR.html"> <img src="../assets/languagebuttons/frenchflag2.png"></a><li>
           <li><a href="../views/index.html"><img href="../views/index.html" src="../assets/languagebuttons/ukflag2.png"></a><li>
-        </ul>
-      </div>
-    </nav>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
   
     <! Header Image>
     <div class="row">
       <div class="col-md-12">
         <div class="image">
-          <img src="../assets/maxresdefault2.jpg" alt="aboutheader">
+          <img src="../assets/urlaub.jpg" alt="aboutheader">
 
           <div class="indextag">
             <img alt="Visit Bad Saarow" src="../assets/logo/visitlogo.png">
-          <h1>Welcome to Bad Saarow</br>Your hideaway from the big city</h1>
+          <h1>Welcome to Bad Saarow</h1>
+          <h2>Your hideaway from the big city</br>Gateway to the Scharmützelsee</h2>
           <a href="#indexanchor">
           </div>
             <p id="explore">Explore</p>
@@ -55,27 +70,33 @@
           
     
       <div class="row"> 
-        <div class="col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="image2">
-          <a name="indexanchor"><img src="../assets/wasserturmgallery4.jpg"></a>
+          <a href="../views/stay.html" name="indexanchor"><img class="image3" src="../assets/wasserturmgallery4.jpg"></a>
           <h2 class="landing2">Stay</h2>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="image2">
-          <img src="../assets/spreebote4.jpg">
+            <a href="../views/do.html">
+              <img class="image3" src="../assets/spreebote4.jpg">
+            </a>
           <h2 class="landing2">Activities</h2>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="image2">
-          <img src="../assets/seeterrasse4.jpg">
+            <a href="../views/eat.html">
+              <img class="image3" src="../assets/seeterrasse4.jpg">
+            </a>
           <h2 class="landing3">Gastronomy</h2>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="image2">
-          <img src="../assets/badsaarowbahnhof.jpg">
+            <a href="../views/eat.html">
+              <img class="image3" src="../assets/badsaarowbahnhof.jpg">
+            </a>
           <h2 class="landing3">About</br> Bad Saarow</h2>
           </div>
         </div>
