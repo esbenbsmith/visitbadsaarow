@@ -21,13 +21,13 @@
 }
 .blackarrowdown {
     position: absolute; 
-    top: 600px; 
+    top: 660px; 
     left: 640px; 
     color:black;
 }
 .whitearrowdown {
     position: absolute; 
-    top: 660px; 
+    top: 640px; 
     left: 640px; 
     color: white;
 }
@@ -105,8 +105,7 @@
 
 .staypics {
   max-width:700px;
-  padding-top:50px;
-  padding-bottom:50px;
+ 
   width:100%;
 }
 .stayheadertitle {
@@ -228,3 +227,11 @@
   max-width:400px;
 }
 
+.padding-top {
+  padding-top: 30px;
+  
+}
+
+.margin-top {
+  margin-top:30px;
+}
