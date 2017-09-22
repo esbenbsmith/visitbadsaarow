@@ -49,6 +49,17 @@
   margin-top:30px;
 }
 
+.headerimage {
+  width:100%;
+  height:100%;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+opacity:0.95;
+}
+
+
 /* END GENERAL */
 
 
@@ -89,7 +100,7 @@
 .indexgallerytext {
     position: absolute; 
     top: 5px; 
-    left: 20px; 
+    left: 30px; 
     color:white;
     text-shadow:2px 2px #000000;   
 }
@@ -137,7 +148,8 @@
     top: 500px; 
    left: 135px; 
    width: 100%; 
-   color:black;
+   color:white;
+   text-shadow: 2px 2px #000000;
 }
 .new {
   max-width:600px;
@@ -145,6 +157,10 @@
 .new2 {
   max-width:400px;
 }
+.youtube {
+  width:100%;
+}
+
 /*END DO */
 
 
@@ -158,7 +174,7 @@
     top: 260px; 
    left: 80px; 
    width: 100%; 
-   color:black;
+   color:white;
 }
 .eattitle {
     color:lightsteelblue;
