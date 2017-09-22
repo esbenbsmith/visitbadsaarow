@@ -40,9 +40,16 @@
 .lightsteelblue {
     color:lightsteelblue;
 }
+.padding-top {
+  padding-top: 30px;
+  
+}
 
+.margin-top {
+  margin-top:30px;
+}
 
-
+/* END GENERAL */
 
 
 
@@ -84,8 +91,7 @@
     top: 5px; 
     left: 20px; 
     color:white;
-    text-shadow:2px 2px #000000;
-    
+    text-shadow:2px 2px #000000;   
 }
 .indextag {
   position: absolute; 
@@ -95,9 +101,12 @@
   color:white;
   text-shadow:1px 1px #000000;
 }
+#homeheaderimage {
+  max-height: 640px;
+  height:100%;
+}
 
-
-
+/*END INDEX */
 
 
 
@@ -115,7 +124,7 @@
    left: 65px; 
    width: 100%; 
 }
-
+/*END STAY */
 
 
 
@@ -130,7 +139,13 @@
    width: 100%; 
    color:black;
 }
-
+.new {
+  max-width:600px;
+}
+.new2 {
+  max-width:400px;
+}
+/*END DO */
 
 
 
@@ -152,14 +167,17 @@
     max-width:400px;
     max-height:400px;
 }
-
 .eat {
     padding:40px;
 }
-
 #underconstruction {
     color:red;
 }
+/* END EAT */
+
+
+
+
 
 
 /* About */ 
@@ -172,32 +190,25 @@
    width: 100%; 
    color: white;
    text-shadow: 2px 2px #000000;
-
-
 }
-
-
-
-
-
+#map {
+  max-width:800px;
+  width:100%;
+}
 #therme {
     max-width:456px;
     max-height:305px;
     width: 100%;
 }
-
-
 .buddhist {
     max-width:456px;
-    width: 100%;
-    
+    width: 100%; 
 }
-
 #aboutheader {
-  max-height: 640px;
   width: 100%; 
 }
 
+/* END ABOUT */
 
 
 
@@ -205,33 +216,11 @@
 
 
 
-.visit {
-  width:100%;
-}
 
-#map {
-  max-width:800px;
-  width:100%;
-}
 
-#homeheaderimage {
-  max-height: 640px;
-  height:100%;
-}
 
-.new {
-  max-width:600px;
-}
 
-.new2 {
-  max-width:400px;
-}
 
-.padding-top {
-  padding-top: 30px;
-  
-}
 
-.margin-top {
-  margin-top:30px;
-}
+
+
