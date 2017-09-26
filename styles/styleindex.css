@@ -69,29 +69,18 @@ opacity:0.95;
 
 /* Index */
 
-#explore {
-  position: absolute; 
-    top: 580px; 
-    left: 626px;
-  color:white;
-  width: 100%; 
-}
-.explorearrow {
-  position: absolute; 
-    top: 600px; 
-    left: 632px;
-  color:white;
-}
+
 .indexgallery { 
    position: relative; 
    width: 100%;
+   height:50%;
    z-index:0;
    opacity:1;
    width:100%;
    filter: brightness(90%);
 }
 .indexgallery2 {
-  height:100%;
+  height:50%;
   z-index:0;
    opacity:1
    filter: brightness(90%);
@@ -109,7 +98,7 @@ opacity:0.95;
 }
 .indextag {
   position: absolute; 
-    top: 300px; 
+    top: 100px; 
    left: 80px; 
    height: 100%; 
   color:white;
